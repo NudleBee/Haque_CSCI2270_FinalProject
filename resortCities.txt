@@ -1,0 +1,11 @@
+Resorts,Heavenly,Northstar,Whistler,Sunshine,Jackson Hole,Park City,Big Bear,Vail,Aspen,Sugarbush
+Heavenly,0,10,958,-1,733,582,-1,-1,-1,-1
+Northstar,10,0,-1,-1,-1,560,400,-1,-1,-1
+Whister,958,-1,0,490,-1,-1,-1,-1,-1,-1
+Sunshine,-1,-1,490,0,740,-1,-1,-1,-1,-1
+Jackson Hole,733,-1,-1,740,0,250,-1,467,447,-1
+Park City,582,560,-1,-1,250,0,-1,370,-1,-1
+Big Bear,-1,400,-1,-1,-1,-1,0,-1,-1,-1
+Vail,-1,-1,-1,-1,467,370,-1,0,100,-1
+Aspen,-1,-1,-1,-1,477,-1,-1,100,0,2000
+Sugarbush,-1,-1,-1,-1,-1,-1,-1,-1,2000,0

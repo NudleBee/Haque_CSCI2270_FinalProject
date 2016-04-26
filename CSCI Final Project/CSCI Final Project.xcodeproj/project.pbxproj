@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3741712B1CCC5578008B9EC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3741712A1CCC5578008B9EC5 /* main.cpp */; };
+		374171341CCC55D0008B9EC5 /* skiResorts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374171321CCC55D0008B9EC5 /* skiResorts.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		374171251CCC5578008B9EC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		374171271CCC5578008B9EC5 /* CSCI Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSCI Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3741712A1CCC5578008B9EC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		374171311CCC55B5008B9EC5 /* skiResorts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skiResorts.h; path = ../skiResorts.h; sourceTree = "<group>"; };
+		374171321CCC55D0008B9EC5 /* skiResorts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skiResorts.cpp; sourceTree = "<group>"; };
+		3752A2B41CCD75D800E1E057 /* resortCities.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = resortCities.txt; path = ../../resortCities.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374171241CCC5578008B9EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3741711E1CCC5578008B9EC5 = {
+			isa = PBXGroup;
+			children = (
+				374171291CCC5578008B9EC5 /* CSCI Final Project */,
+				374171281CCC5578008B9EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374171281CCC5578008B9EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374171271CCC5578008B9EC5 /* CSCI Final Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374171291CCC5578008B9EC5 /* CSCI Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				3741712A1CCC5578008B9EC5 /* main.cpp */,
+				374171321CCC55D0008B9EC5 /* skiResorts.cpp */,
+				374171311CCC55B5008B9EC5 /* skiResorts.h */,
+				3752A2B41CCD75D800E1E057 /* resortCities.txt */,
+			);
+			path = "CSCI Final Project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374171261CCC5578008B9EC5 /* CSCI Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3741712E1CCC5578008B9EC5 /* Build configuration list for PBXNativeTarget "CSCI Final Project" */;
+			buildPhases = (
+				374171231CCC5578008B9EC5 /* Sources */,
+				374171241CCC5578008B9EC5 /* Frameworks */,
+				374171251CCC5578008B9EC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSCI Final Project";
+			productName = "CSCI Final Project";
+			productReference = 374171271CCC5578008B9EC5 /* CSCI Final Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3741711F1CCC5578008B9EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dan H";
+				TargetAttributes = {
+					374171261CCC5578008B9EC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 374171221CCC5578008B9EC5 /* Build configuration list for PBXProject "CSCI Final Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3741711E1CCC5578008B9EC5;
+			productRefGroup = 374171281CCC5578008B9EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374171261CCC5578008B9EC5 /* CSCI Final Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374171231CCC5578008B9EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374171341CCC55D0008B9EC5 /* skiResorts.cpp in Sources */,
+				3741712B1CCC5578008B9EC5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3741712C1CCC5578008B9EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3741712D1CCC5578008B9EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3741712F1CCC5578008B9EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		374171301CCC5578008B9EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374171221CCC5578008B9EC5 /* Build configuration list for PBXProject "CSCI Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3741712C1CCC5578008B9EC5 /* Debug */,
+				3741712D1CCC5578008B9EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3741712E1CCC5578008B9EC5 /* Build configuration list for PBXNativeTarget "CSCI Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3741712F1CCC5578008B9EC5 /* Debug */,
+				374171301CCC5578008B9EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3741711F1CCC5578008B9EC5 /* Project object */;
+}
