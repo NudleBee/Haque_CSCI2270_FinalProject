@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3741712B1CCC5578008B9EC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3741712A1CCC5578008B9EC5 /* main.cpp */; };
-		374171341CCC55D0008B9EC5 /* skiResorts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374171321CCC55D0008B9EC5 /* skiResorts.cpp */; };
+		374171341CCC55D0008B9EC5 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 374171321CCC55D0008B9EC5 /* Graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		374171271CCC5578008B9EC5 /* CSCI Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSCI Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3741712A1CCC5578008B9EC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		374171311CCC55B5008B9EC5 /* skiResorts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skiResorts.h; path = ../skiResorts.h; sourceTree = "<group>"; };
-		374171321CCC55D0008B9EC5 /* skiResorts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skiResorts.cpp; sourceTree = "<group>"; };
+		374171311CCC55B5008B9EC5 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Graph.h; path = ../Graph.h; sourceTree = "<group>"; };
+		374171321CCC55D0008B9EC5 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		3752A2B41CCD75D800E1E057 /* resortCities.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = resortCities.txt; path = ../../resortCities.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				3741712A1CCC5578008B9EC5 /* main.cpp */,
-				374171321CCC55D0008B9EC5 /* skiResorts.cpp */,
-				374171311CCC55B5008B9EC5 /* skiResorts.h */,
+				374171321CCC55D0008B9EC5 /* Graph.cpp */,
+				374171311CCC55B5008B9EC5 /* Graph.h */,
 				3752A2B41CCD75D800E1E057 /* resortCities.txt */,
 			);
 			path = "CSCI Final Project";
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374171341CCC55D0008B9EC5 /* skiResorts.cpp in Sources */,
+				374171341CCC55D0008B9EC5 /* Graph.cpp in Sources */,
 				3741712B1CCC5578008B9EC5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

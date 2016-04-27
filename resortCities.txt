@@ -1,4 +1,4 @@
-Resorts,Heavenly,Northstar,Whistler,Sunshine,Jackson Hole,Park City,Big Bear,Vail,Aspen,Sugarbush
+resorts,Heavenly,Northstar,Whistler,Sunshine,Jackson Hole,Park City,Big Bear,Vail,Aspen,Sugarbush
 Heavenly,0,10,958,-1,733,582,-1,-1,-1,-1
 Northstar,10,0,-1,-1,-1,560,400,-1,-1,-1
 Whister,958,-1,0,490,-1,-1,-1,-1,-1,-1
