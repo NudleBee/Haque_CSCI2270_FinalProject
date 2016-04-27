@@ -44,4 +44,6 @@ My roommates helped me with a few things along with debugging
 
 Open issues/bugs: 
 
+None that i can find
+
 
