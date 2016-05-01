@@ -108,7 +108,9 @@ LOOP:while(1 == 1){         //Main Menu
         }
     }else if(input == "3"){ //Initializes districts
         input = "";
-        g.findDistricts(skiResort[0]);
+        if(skiResort[0] != nullptr){
+            g.findDistricts(skiResort[0]);
+        }else cout<<"No resorts found!"<<endl;
     }else if(input == "4"){ //Find shortest path
         string resort1;
         string resort2;
